@@ -1,0 +1,9 @@
+stop a port : sudo kill -9 `sudo lsof -t -i:8083`
+
+
+solve 404 UBUNTU repo problem :
+
+sudo add-apt-repository -y -r ppa:chris-lea/node.js
+sudo rm -f /etc/apt/sources.list.d/chris-lea-node_js-*.list
+
+
