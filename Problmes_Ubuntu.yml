@@ -1,4 +1,4 @@
-stop a port : sudo kill -9 `sudo lsof -t -i:8083`
+stop a port : sudo kill -9 `sudo lsof -t -i:8083`  or  sudo kill -9 $(sudo lsof -t -i:9001)
 
 
 solve 404 UBUNTU repo problem :
